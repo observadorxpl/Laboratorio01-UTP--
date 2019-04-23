@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Laboratorio</string>
+    <string name="btn_capturar">CAPTURAR</string>
+    <string name="txtname">Ingrese un nombre</string>
+    <string name="txt_number01">Ingrese un numero</string>
+    <string name="plato_lomo">Lomo Saltado</string>
+    <string name="btn_mostrar">MOSTRAR</string>
+    <string name="plato_aji">Ají de gallina</string>
+    <string name="plato_pollo">Pollo a la brasa</string>
+    <string name="plato_ceviche">Ceviche Mixto</string>
+    <string name="plato_pisco">Pisco sour</string>
+    <string name="plato_Arroz">Arroz con pollo</string>
+    <string name="btn_calculadora">CALCULADORA</string>
+    <string name="btn_checkbox">CHECKBOX</string>
+    <string name="btn_spinner">SPINNER</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="result_intent01">El resultado del producto es:</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="btn_activity01">ACTIVIDAD 1</string>
+</resources>

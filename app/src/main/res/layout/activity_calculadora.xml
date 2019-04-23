@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_weight="0.1"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_number01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_number01"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txt_number02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_number01"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_suma"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="SUMA"
+                android:layout_marginTop="30dp"
+                android:onClick="suma"
+                />
+            <Button
+                android:id="@+id/btn_resta"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="RESTA"
+                android:layout_marginTop="30dp"
+                android:onClick="resta"
+                />
+            <Button
+                android:id="@+id/btn_mult"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="MULT"
+                android:layout_marginTop="30dp"
+                android:onClick="mult"
+                />
+            <Button
+                android:id="@+id/btn_div"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="DIVI"
+                android:layout_marginTop="30dp"
+                android:onClick="div"
+                />
+        </LinearLayout>
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9">
+        <TextView
+            android:id="@+id/txt_number03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:textSize="150sp"
+            />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

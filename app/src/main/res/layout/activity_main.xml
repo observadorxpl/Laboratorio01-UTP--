@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/btn_calculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calculadora"
+            android:layout_marginTop="80dp"
+            android:onClick="calculadora"
+            />
+        <Button
+            android:id="@+id/btn_capturar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_capturar"
+            android:layout_marginTop="30dp"
+            android:onClick="capturar"
+            />
+        <Button
+            android:id="@+id/btn_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_checkbox"
+            android:layout_marginTop="30dp"
+            android:onClick="checkbox"
+            />
+        <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_spinner"
+            android:layout_marginTop="30dp"
+            android:onClick="spinner"
+            />
+        <Button
+            android:id="@+id/btn_activity01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_activity01"
+            android:layout_marginTop="30dp"
+            android:onClick="activity01"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
